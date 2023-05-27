@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightNav{
+    display: flex;
+    gap: 80px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.listItems{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navBtn button{
+    background: #00008b ;
+    color: white;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSection{
+    width: 40%;
+}
+
+.leftSection h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.leftSection p{
+    margin-top: 10px;
+}
+
+.leftSection h1 span{
+    color: #00008b ;
+}
+
+.leftSection button{
+    margin-top: 40px;
+    background: #00008b ;
+    color: white;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rightSection{
+    display: flex;
+}
+
+.rightSection img{
+    width: 700px;
+}
+
